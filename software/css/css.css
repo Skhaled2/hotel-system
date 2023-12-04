@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#home{
+    height: 100vh;
+    background-color: aquamarine;
+    background-image: url(../images/pexels-pixabay-271639.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.navbar-brand{
+    color: white;
+    font-size: 35px;
+     font-weight: 800;
+     transition: 0.5s;
+}
+.navbar-brand:hover{
+    color: bisque;
+
+}
+.nav-item a{
+    color: white;
+    transition: all 1s;}
+    
+    .nav-item:hover a{
+        color:blanchedalmond ;
+    }
+    .home-link{
+        color: #20C997;
+    }
+.home-caption{
+    color: white;
+    text-align: center;
+  
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    padding: 30px;
+  
+
+}
+.home-caption h2{
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 10px 0px;
+}
+.home-caption h1{
+    font-size: 70px;
+
+}
+.home-caption h6{
+    font-size: 20px;
+    padding: 10px 0px;
+
+}
+.btn1{
+    margin-top: 20px;
+    padding: 13px 40px;
+    border: solid blanchedalmond 1px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: blanchedalmond;
+    transition: all 1s;
+    font-size: 19px;
+    font-weight: 500;
+}
+.btn1:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+.home-caption h1::after{
+    content: "|";
+    animation-name: typing;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+@keyframes typing{
+    0%{ content:'m|'}
+    10%{ content:'my|'}
+    20%{ content:'my r|'}
+    30%{ content:'my ro|'}
+    40%{ content:'my roo|'}
+    50%{ content:'my room|'}
+    60%{ content:'my roo|'}
+    70%{ content:'my ro|'}
+     80%{ content:'my r|'}
+    90%{ content:'my |'}
+    100%{ content:'m|'}
+}
